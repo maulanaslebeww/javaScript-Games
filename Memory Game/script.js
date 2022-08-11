@@ -1,14 +1,14 @@
 const cardArray = [
     {
-        name: 'burger',
+        name: 'burgir',
         img: 'images/burger.png'
     },
     {
-        name: 'doughnut',
+        name: 'rengoku kyojuro',
         img: 'images/doughnut.png'
     },
     {
-        name: 'ice-cream',
+        name: 'vanilla ice',
         img: 'images/ice-cream.png'
     },
     {
@@ -20,23 +20,23 @@ const cardArray = [
         img: 'images/ice-cream-3.png'
     },
     {
-        name: 'ketchup',
+        name: 'fake blood',
         img: 'images/ketchup.png'
     },
     {
-        name: 'pineapple',
+        name: 'pepsi',
         img: 'images/pineapple.png'
     },
     {
-        name: 'pizza',
+        name: 'italian food',
         img: 'images/pizza.png'
     },
     {
-        name: 'strawberry',
+        name: 'plastic fruit',
         img: 'images/strawberry.png'
     },
     {
-        name: 'watermelon',
+        name: 'water ball',
         img: 'images/watermelon.png'
     },
 ];
@@ -66,7 +66,7 @@ cardSpawner();
 //Timer function
 
 let timerWin = false;
-let timeLimit = 59; //time limit in seconds
+let timeLimit = 69; //time limit in seconds
 
 let timer = () => {
     let mil = 0;
@@ -158,13 +158,13 @@ let resetBaord = () => {
 
 let youWin = () => {
     console.log('you win');
-    document.getElementById('you-win').style.display = 'flex'
+    document.getElementById('apakah rill????').style.display = 'flex'
     timerWin = true;
 }
 
 let youLoose = () => {
     console.log('you loose');
-    document.getElementById('you-loose').style.display = 'flex'
+    document.getElementById('acumalaka sekali beliau ini').style.display = 'flex'
 }
 
 
