@@ -1,42 +1,42 @@
 const cardArray = [
     {
-        name: 'burger',
+        name: 'hamburger',
         img: 'images/burger.png'
     },
     {
-        name: 'doughnut',
+        name: 'Rengoku Kyojuro',
         img: 'images/doughnut.png'
     },
     {
-        name: 'ice-cream',
+        name: 'Orang cina',
         img: 'images/ice-cream.png'
     },
     {
-        name: 'ice-cream-2',
+        name: 'Orangn cina lebih keren',
         img: 'images/ice-cream-2.png'
     },
     {
-        name: 'ice-cream-3',
+        name: 'orang cina paling keren',
         img: 'images/ice-cream-3.png'
     },
     {
-        name: 'ketchup',
+        name: 'darah orang suka gosip',
         img: 'images/ketchup.png'
     },
     {
-        name: 'pineapple',
+        name: 'Enakan apel',
         img: 'images/pineapple.png'
     },
     {
-        name: 'pizza',
+        name: 'Makanan orang italia',
         img: 'images/pizza.png'
     },
     {
-        name: 'strawberry',
+        name: 'buah plastik',
         img: 'images/strawberry.png'
     },
     {
-        name: 'watermelon',
+        name: 'bola air',
         img: 'images/watermelon.png'
     },
 ];
@@ -82,7 +82,7 @@ let timer = () => {
         timeRemaining = timeLimit-sec;
         if(timeRemaining==0||timerWin==true){
             clearInterval(interval);
-            youLoose();
+            acumalaka sekali beliau ini();
         }
         document.getElementById('time').innerHTML = `Time:<br>${timeRemaining}:${mil/10}`
     },10);
@@ -124,7 +124,7 @@ function flipCard(){
 
     if(count==cardsList.length){
         setTimeout(() => {
-            youWin();
+            apakah rill????();
         },500);
     }
 }
@@ -157,14 +157,14 @@ let resetBaord = () => {
 
 
 let youWin = () => {
-    console.log('you win');
+    console.log('apakah rill????');
     document.getElementById('you-win').style.display = 'flex'
     timerWin = true;
 }
 
 let youLoose = () => {
-    console.log('you loose');
-    document.getElementById('you-loose').style.display = 'flex'
+    console.log('acumalaka sekali beliau ini');
+    document.getElementById('acumalaka sekali beliau ini').style.display = 'flex'
 }
 
 
